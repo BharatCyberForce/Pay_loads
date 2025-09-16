@@ -5,10 +5,10 @@
 
 ## How it Works
 ​The vulnerability occurs when a web application uses user-supplied input directly in an SQL query without proper sanitization. A typical login form might construct a query like this:
-If the app builds the database query by inserting raw user input into the SQL statement, the input can change the logic the database executes. In effect the attacker is not guessing a password — they are changing the test the application runs so the test passes even with wrong or unknown credentials.
+If the app builds the database query by inserting raw user input into the SQL statement, the input can change the logic the database executes. In effect the attacker is not guessing a password, they are changing the test the application runs so the test passes even with wrong or unknown credentials.
 
 ```
-SELECT * FROM users WHERE username = 'user_input' AND password = 'password_input';
+SELECT * FROM users WHERE username = 'user input' AND password = 'password input';
 ```
 a specific string into the username or password fields to manipulate this query. For example, if a user enters ' OR '1'='1 into the password field, the resulting SQL query could become:
 
