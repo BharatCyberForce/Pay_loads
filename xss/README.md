@@ -74,7 +74,7 @@ Phish or social-engineer inject malicious UI that prompts victims to enter secre
 
 ## Reflected XSS
 
-Reflected XSS is often used for targeted attacks or to spread a message widely through social engineering. Hacktivists create a malicious URL with a payload that, when clicked by a victim, executes in their browser.
+Reflected XSS is often used for targeted attacks or to spread a message widely through social engineering. we can create a malicious URL with a payload that, when clicked by a victim, executes in their browser.
 
   Social Engineering: They can use phishing campaigns to send a malicious link to a specific target, like a government official or a corporate leader. When the target clicks the link, the payload runs, allowing the hacktivist to steal cookies or hijack their session.
 
@@ -84,7 +84,7 @@ Reflected XSS is often used for targeted attacks or to spread a message widely t
 
 Stored XSS is the most powerful method for hacktivists because the malicious payload is permanently embedded into the website. It affects every user who views the compromised page.
 
-  Website Defacement: This is a classic hacktivist tactic. By injecting a script into a comment section, a forum, or even a news article, they can alter the page's HTML to display a political message or a symbol. This virtual defacement is a visible form of protest.
+  Website Defacement: This is a classic hacktivist tactic. By injecting a script into a comment section, a forum, or even a news article, they can alter the page HTML to display a political message or a symbol. This virtual defacement is a visible form of protest.
 
   Mass Message Dissemination: A hacktivist group can inject code into a popular website to automatically display their manifesto or propaganda to every user. This is a highly effective way to get their message out without having to engage in individual phishing attacks.
 
@@ -97,3 +97,16 @@ DOM-based XSS can be a more subtle tool for hacktivists. While it's also non-per
   Targeted Manipulation: A hacktivist can create a URL that, when clicked, manipulates the client-side JavaScript of a web page to display disinformation or alter content for a specific user. This can be used to spread propaganda or create a convincing but fake narrative, as the changes appear to be coming from the legitimate website itself.
 
   Bypassing Server-Side Protections: Since the payload is never sent to the server, this type of XSS can bypass many server-side firewalls and intrusion detection systems. This makes it a stealthy and effective method for hacktivist groups who want to avoid detection.
+
+
+---
+
+## ⚠️ Warning
+
+This document is provided **for educational and real world attacks examples**.  
+
+- **Do not use this information to attack on anyone sits unauthorize**  
+- Testing should only be done on systems you are authorized to assess.  
+- Any misuse of these techniques against third-party applications without permission is unethical and may be illegal.  
+
+The purpose of this guide is to help the community **reduce security risks** and **increase awareness**
