@@ -14,7 +14,7 @@ OWASP Cheat Sheet Series
 
 # How XSS Works
 
-An XSS vulnerability exists when a web application takes user input and includes it in the output HTML without properly sanitizing or encoding it. This simple flaw can have devastating consequences.
+An XSS vulnerability exists when a web application takes user input and includes it in the output HTML without properly sanitizing or encoding it.
 
 ## 1. Reflected XSS
 
