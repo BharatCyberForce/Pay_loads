@@ -5,11 +5,11 @@ MDN Web Docs
 
 Three canonical types
 
-Reflected XSS — attacker supplies data (URL parameter) that is immediately reflected in the server response and executed in the victim’s browser.
+Reflected XSS attacker supplies data (URL parameter) that is immediately reflected in the server response and executed in the victim’s browser.
 
-Stored (persistent) XSS — attacker stores malicious content on the server (forum post) so that every user who views it executes the payload.
+Stored (persistent) XSS attacker stores malicious content on the server (forum post) so that every user who views it executes the payload.
 
-DOM-based XSS — vulnerability originates in client-side code that writes untrusted data into DOM APIs (innerHTML) without sanitization; the server may be innocent. 
+DOM-based XSS vulnerability originates in client side code that writes untrusted data into DOM APIs (innerHTML) without sanitization; the server may be innocent. 
 OWASP Cheat Sheet Series
 
 # How XSS Works
