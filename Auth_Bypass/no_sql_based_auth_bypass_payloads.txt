@@ -1,5 +1,0 @@
-{ "$or": [ {}, { "admin": true } ] }
-{ "isAdmin": true }
-{ "username": { "$ne": null }, "password": { "$ne": null } }
-{ "username": { "$gt": "" }, "password": { "$gt": "" } }
-{ "script": "doc['role'].value == 'admin'" }
